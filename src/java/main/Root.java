@@ -11,11 +11,11 @@ public class Root {
         double a = 1;
         double b = 11;
         double eps = 0.0001;
-        double x = methodСhord(b, a, eps);
+        double x = methodChord(b, a, eps);
         System.out.println(x);
     }
 
-    public static double methodСhord(double prev, double curr, double eps) {
+    public static double methodChord(double prev, double curr, double eps) {
         double next = 0;
         double tmp;
         do {
